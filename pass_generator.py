@@ -19,7 +19,7 @@ Examples:
     parser.add_argument('-e', '--exclude', nargs=1,
                         help="Exclude user-defined characters, must be passed in single string separated by spaces.\n   e.g: 'a b c'")
     parser.add_argument('-o', '--output', nargs='+',
-                        help="First arg is for path and it's required, second is optional for write mode, default is (a)ppend, you can also use (w)rite.")
+                        help="First param is for path and it's required, second is optional for write mode, default is (a)ppend, you can also use (w)rite.")
 
     arguments = parser.parse_args()
     return arguments
